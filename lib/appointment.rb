@@ -1,8 +1,11 @@
 class Appointment
+  attr_accessor :date, :patient, :doctor
   @@all = []
 
   def initialize(date, patient, doctor)
-    
+    @date = date
+    @patient = patient
+    @doctor = doctor
 
   The Appointment class needs a class method .all that lists each Appointment in the class variable.
 
