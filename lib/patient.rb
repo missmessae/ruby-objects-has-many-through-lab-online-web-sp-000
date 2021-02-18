@@ -23,5 +23,4 @@ class Paitent
     Appointment.all.select {|a| a.doctor}
   end
 
-
 end
