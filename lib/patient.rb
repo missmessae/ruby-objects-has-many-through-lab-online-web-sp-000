@@ -1,10 +1,10 @@
 class Paitent
-  attr_accessor :name, :appointments
+  attr_accessor :name
 
 
   def initialize(name)
     @name = name
     @@all << self
   end
-  
+
 end
