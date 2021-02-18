@@ -3,4 +3,3 @@ class Doctor
 
   
 end
-
