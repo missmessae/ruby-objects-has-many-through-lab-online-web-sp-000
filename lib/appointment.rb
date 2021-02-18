@@ -7,6 +7,8 @@ class Appointment
     @patient = patient
     @doctor = doctor
     @@all << self
+  end
+  
 
   The Appointment class needs a class method .all that lists each Appointment in the class variable.
 
