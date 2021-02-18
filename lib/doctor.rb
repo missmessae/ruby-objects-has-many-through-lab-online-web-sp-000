@@ -3,7 +3,7 @@ class Doctor
   @@all = []
 
   def self.all
-    @@all 
+    @@all
   end
-  
+
 end
