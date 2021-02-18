@@ -8,7 +8,10 @@ class Appointment
     @doctor = doctor
     @@all << self
   end
-  
+
+  def self.all
+    @@all
+  end
 
   The Appointment class needs a class method .all that lists each Appointment in the class variable.
 
